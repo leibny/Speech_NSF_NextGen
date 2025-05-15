@@ -1,4 +1,16 @@
+# Introduction
+
+
+
+The Kaldi open-source toolkit for automatic speech recognition, developed in 2009 and the subsequent follow-up trilogy Icefall, K2 and Lhotse in 2021 have shown the rapid evolution of the algorithms in speech technologies. To adapt to the new and rapid changes such as large language models (LLMs), Hugging Face, and robust frameworks like Pythorch, this project aims to give a fresh scope according to the new necessities of the speech research community. 
+
 # Projects
+
+## Icefall
+
+## K2
+
+## Lhotse
 
 ## Contextual ASR
 Developed recipes for Contextual ASR. This is the process by which an ASR system is provided with contextual information derived from metadata associated with the audio, typically in the form of a list of words or phrases likely to be spoken, with the goal of improving the recognition accuracy of named entities and other infrequent terms. Our work on Contextual ASR is recognized for introducing the ConEC dataset ([ConEC](https://github.com/huangruizhe/ConEC)), followed by a method for improving neural biasing beyond shallow language model fusion ([Pull request - Neural Biasing](https://github.com/k2-fsa/icefall/pull/1763)).
