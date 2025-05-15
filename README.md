@@ -34,6 +34,12 @@ A functional recipe for [Geolocation](https://github.com/geolocation-from-speech
 
 
 ### 🎨 Icefall Recipies
+
+- [AMI SURT](https://github.com/k2-fsa/icefall/tree/master/egs/ami/SURT)
+- [Kneser-Ney smoothed language model](https://github.com/k2-fsa/icefall/blob/e79833aad278f09792deceab5962b09ae4f56378/icefall/shared/make_kn_lm.py)
+- [Librispeech](https://github.com/k2-fsa/icefall/tree/e79833aad278f09792deceab5962b09ae4f56378/egs/librispeech - partial contribution
+- [MGB2](https://github.com/k2-fsa/icefall/tree/master/egs/mgb2/ASR)
+- [N-gram entropy running](https://github.com/k2-fsa/icefall/blob/e79833aad278f09792deceab5962b09ae4f56378/icefall/shared/ngram_entropy_pruning.py#L4)
 - [SPGISpeech](https://github.com/k2-fsa/icefall/tree/master/egs/spgispeech/ASR)
 - [An Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/fluent_speech_commands/SLU) for [Fluent Speech Commands](https://www.isca-archive.org/interspeech_2019/lugosch19_interspeech.pdf), a speech dataset which transcribes short utterances (such as ”turn the lights on in the kitchen”) into action frames (such as ”action”: ”activate”, ”object”: ”lights”, ”location”: ”kitchen”).
 
