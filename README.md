@@ -25,6 +25,9 @@ U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation T
 ### 🎨 Continuous Streaming Multi-Talker ASR
 [We investigated](https://arxiv.org/abs/2109.08555) Streaming Unmixing and Recognition Transducer (SURT) for continuous streaming multitalker ASR, and demonstrated the effectiveness of dual-path LSTMs and Transformers for generalization to diverse session lengths (recipes for the [LibriCSS](https://github.com/k2-fsa/icefall/tree/master/egs/libricss/SURT), [AMI and ICSI](https://github.com/k2-fsa/icefall/tree/master/egs/ami/SURT) datasets).
 
+###  🎨 SPGISpeech
+We developed an [Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/spgispeech/ASR) and trained models ([zipformer](https://huggingface.co/desh2608/icefall-asr-spgispeech-zipformer) and [stateless transducer](https://huggingface.co/desh2608/icefall-asr-spgispeech-pruned-transducer-stateless2) models on Hugging Face) for [SPGISpeech](https://arxiv.org/abs/2104.02014), a dataset consisting of 5,000 hours of recorded company earnings calls and their respective transcriptions.
+
 ###  🎨 Contextual ASR
 Developed recipes for Contextual ASR. This is the process by which an ASR system is provided with contextual information derived from metadata associated with the audio, typically in the form of a list of words or phrases likely to be spoken, with the goal of improving the recognition accuracy of named entities and other infrequent terms. Our work on Contextual ASR is recognized for introducing the ConEC dataset ([ConEC](https://github.com/huangruizhe/ConEC)), followed by a method for improving neural biasing beyond shallow language model fusion ([Pull request - Neural Biasing](https://github.com/k2-fsa/icefall/pull/1763)).
 
@@ -45,7 +48,6 @@ A functional recipe for [Geolocation](https://github.com/geolocation-from-speech
 - [Librispeech](https://github.com/k2-fsa/icefall/tree/e79833aad278f09792deceab5962b09ae4f56378/egs/librispeech) - partial contribution
 - [MGB2](https://github.com/k2-fsa/icefall/tree/master/egs/mgb2/ASR)
 - [N-gram entropy running](https://github.com/k2-fsa/icefall/blob/e79833aad278f09792deceab5962b09ae4f56378/icefall/shared/ngram_entropy_pruning.py#L4)
-- [SPGISpeech](https://github.com/k2-fsa/icefall/tree/master/egs/spgispeech/ASR)
 - [An Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/fluent_speech_commands/SLU) for [Fluent Speech Commands](https://www.isca-archive.org/interspeech_2019/lugosch19_interspeech.pdf), a speech dataset which transcribes short utterances (such as ”turn the lights on in the kitchen”) into action frames (such as ”action”: ”activate”, ”object”: ”lights”, ”location”: ”kitchen”).
 
 ### 🎨 JHU Collaborators
