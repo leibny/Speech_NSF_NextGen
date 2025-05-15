@@ -22,7 +22,7 @@ U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation T
     <img src="https://github.com/user-attachments/assets/925352f5-ffe9-4f33-873f-c8851a7b0ddb" alt="Icefall" width="200"/>
 </p>
 
-### Continuous Streaming Multi-Talker ASR
+### 🎨 Continuous Streaming Multi-Talker ASR
 [We investigated](https://arxiv.org/abs/2109.08555) Streaming Unmixing and Recognition Transducer (SURT) for continuous streaming multitalker ASR, and demonstrated the effectiveness of dual-path LSTMs and Transformers for generalization to diverse session lengths (recipes for the [LibriCSS](https://github.com/k2-fsa/icefall/tree/master/egs/libricss/SURT), [AMI and ICSI](https://github.com/k2-fsa/icefall/tree/master/egs/ami/SURT) datasets).
 
 ###  🎨 Contextual ASR
