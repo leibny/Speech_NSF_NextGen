@@ -13,7 +13,7 @@ The Kaldi open-source toolkit for automatic speech recognition, developed in 200
 
 #### Acknowledgments:
 [<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>](href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120435&HistoricalAwards=false)
-U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
+ This project was supported by U.S. National Science Foundation Award Number:2120435, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
 
 # 🔹 Projects
 
