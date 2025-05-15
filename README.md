@@ -14,9 +14,8 @@ The Kaldi open-source toolkit for automatic speech recognition, developed in 200
 The project aims at implementing all core functions of the open-source Kaldi automatic speech recognition (ASR) toolkit natively in generic AI/deep learning frameworks, primarily PyTorch, so that new advances in deep learning (e.g., novel optimization algorithms) can be seamlessly leveraged by the speech research community. Furthermore, the project incorporates automatic differentiation through finite state transducers, a core Kaldi feature responsible for its state-of-the-art performance, permitting true end-to-end training of ASR systems. These and other enhancements will make it possible to achieve two currently incompatible goals: incorporating structured, external knowledge (e.g., dialog flow models, finite state grammars, pronunciation lexicons) into fully neural ASR systems, and end-to-end training of a hybrid ASR system via backpropagation. Other goals of this proposal include providing efficient yet user-friendly data preparation and model management tools for large-scale training of ASR systems and capabilities for robust conversation analysis and speaker diarization needed by researchers who use ASR as a tool for other scientific inquiries.
 
 #### Acknowledgments:
-
-[<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120435&HistoricalAwards=false)
- This project was supported by U.S. National Science Foundation Award Number:2120435, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
+<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>
+U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
 
 # 🔹 Projects
 
@@ -24,6 +23,8 @@ The project aims at implementing all core functions of the open-source Kaldi aut
   <a href="https://github.com/k2-fsa/icefall">
     <img src="https://github.com/user-attachments/assets/925352f5-ffe9-4f33-873f-c8851a7b0ddb" alt="Icefall" width="200"/>
 </p>
+
+Icefall is the project where K2 and Lhotse ''meet''. It provides the speech and language research community a comprehensive collection of recipes for training modern speech processing systems on most of the popular speech data sets.  Many recipes have been, are being, and will be implemented collaboratively with the research community.
 
 ### 🎨 Continuous Streaming Multi-Talker ASR
 [We investigated](https://arxiv.org/abs/2109.08555) Streaming Unmixing and Recognition Transducer (SURT) for continuous streaming multitalker ASR, and demonstrated the effectiveness of dual-path LSTMs and Transformers for generalization to diverse session lengths (recipes for the [LibriCSS](https://github.com/k2-fsa/icefall/tree/master/egs/libricss/SURT), [AMI and ICSI](https://github.com/k2-fsa/icefall/tree/master/egs/ami/SURT) datasets).
@@ -69,6 +70,7 @@ ________________________________________________________________________________
     <img src="https://github.com/user-attachments/assets/d31f899e-3b76-462a-b516-6d8f44978347" alt="K2" width="200"/>
 </p>
 
+K2 brings data structures and algorithms from the field of finite state automata (FSA) into the world of deep learning. It provides efficient CPU and GPU implementations of commonly used FSA operations and integrates them seamlessly with PyTorch's tensor and automatic differentiation mechanisms, thus admitting --- and benefiting from --- the inner complexity of the speech recognition, instead of trying to remove it. The JHU team  tests and optimizes components of K2 in collaboration with others in the community.
 
 ### 🎨 k2 codes
 - Fast parallel computation of longest common prefixes for eﬃcient pattern matching ([kmp-LCP](https://github.com/k2-fsa/k2/pull/804)).
@@ -91,6 +93,8 @@ ________________________________________________________________________________
   <a href="https://github.com/lhotse-speech/lhotse">  
     <img src="https://github.com/user-attachments/assets/756c82a2-b7f3-4a90-ae21-ca754fd90fbf" alt="Lhotse" width="200"/>
 </p>
+
+Lhotse develops a modern approach to speech data preparation. Its design is inspired by data libraries commonly used in the ML community, such as pandas. Lhotse's philosophy may be summarized as ''simple things should be simple, complex things should be possible.''  Most components in Lhotse are being developed by JHU PHD students and collaborators supported by an NSF award, in consultation with the research community through regular outreach exercises.
 
 
 ### 🎨 GPU-accelerated Guided Source Separation
