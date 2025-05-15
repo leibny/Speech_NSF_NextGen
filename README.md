@@ -7,15 +7,14 @@
 
 The Kaldi open-source toolkit for automatic speech recognition, developed in 2009 and the subsequent follow-up trilogy Icefall, K2 and Lhotse in 2021 have shown the rapid evolution of the algorithms in speech technologies. To adapt to the new and rapid changes such as large language models (LLMs), Hugging Face, and robust frameworks like Pythorch, this project aims to give a fresh scope according to the new necessities of the speech research community. 
 
-Acknowledgments:
-
-NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology <img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>
+#### Acknowledgments:
+U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology <img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>
 
 
 # 🔹 Projects
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/925352f5-ffe9-4f33-873f-c8851a7b0ddb" alt="Icefall" width="100"/>
+  <img src="https://github.com/user-attachments/assets/925352f5-ffe9-4f33-873f-c8851a7b0ddb" alt="Icefall" width="200"/>
 </p>
 
 
@@ -35,7 +34,7 @@ Created a multitask learning framework that synchronizes Language Identification
 
 _______________________________________________________________________________________
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d31f899e-3b76-462a-b516-6d8f44978347" alt="K2" width="100"/>
+  <img src="https://github.com/user-attachments/assets/d31f899e-3b76-462a-b516-6d8f44978347" alt="K2" width="200"/>
 </p>
 
 
@@ -44,7 +43,7 @@ ________________________________________________________________________________
 
 _______________________________________________________________________________________
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/756c82a2-b7f3-4a90-ae21-ca754fd90fbf" alt="Lhotse" width="100"/>
+  <img src="https://github.com/user-attachments/assets/756c82a2-b7f3-4a90-ae21-ca754fd90fbf" alt="Lhotse" width="200"/>
 </p>
 
 
@@ -54,6 +53,23 @@ Improved implementation of [GSS](https://github.com/desh2608/gss) that leverages
 
 
 ### 🎨 Lhotse Recipes
+
+- recipes/aishell3.py speech/asr
+- recipes/atcosim.py speech/asr
+- recipes/but_reverb_db.py  reverberation database
+- recipes/chime6.py speech/asr
+- recipes/csj.py speech/asr
+- recipes/dipco.py speech/asr
+- recipes/edacc.py speech/asr
+- recipes/gigast.py speech-translation
+- recipes/himia.py speaker-verification
+- recipes/librilight.py speech/asr
+- recipes/must_c.py speech-translation
+- recipes/speechcommands.py speech/hotword-detection
+- recipes/uwb_atcc.py speech/asr
+- recipes/xbmu_amdo31.py speech/asr
+
+
 - [Fleurs](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/fleurs.py)
 - [radio stations](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/radio.py)
 - [SBCASE](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/sbcsae.py)
