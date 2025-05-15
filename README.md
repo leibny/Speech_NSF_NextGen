@@ -16,7 +16,7 @@ The project aims at implementing all core functions of the open-source Kaldi aut
 #### Acknowledgments:
 
 [<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120435&HistoricalAwards=false)
- This project was supported by U.S. National Science Foundation Award Number:2120435, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
+ This project was supported by U.S. National Science Foundation Award Number:2120435, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology. 
 
 # 🔹 Projects
 
@@ -24,6 +24,9 @@ The project aims at implementing all core functions of the open-source Kaldi aut
   <a href="https://github.com/k2-fsa/icefall">
     <img src="https://github.com/user-attachments/assets/925352f5-ffe9-4f33-873f-c8851a7b0ddb" alt="Icefall" width="200"/>
 </p>
+
+Icefall is the project where K2 and Lhotse ''meet''. It provides the speech and language research community a comprehensive collection of recipes for training modern speech processing systems on most of the popular speech data sets.  
+
 
 ### 🎨 Continuous Streaming Multi-Talker ASR
 [We investigated](https://arxiv.org/abs/2109.08555) Streaming Unmixing and Recognition Transducer (SURT) for continuous streaming multitalker ASR, and demonstrated the effectiveness of dual-path LSTMs and Transformers for generalization to diverse session lengths (recipes for the [LibriCSS](https://github.com/k2-fsa/icefall/tree/master/egs/libricss/SURT), [AMI and ICSI](https://github.com/k2-fsa/icefall/tree/master/egs/ami/SURT) datasets).
@@ -69,6 +72,7 @@ ________________________________________________________________________________
     <img src="https://github.com/user-attachments/assets/d31f899e-3b76-462a-b516-6d8f44978347" alt="K2" width="200"/>
 </p>
 
+K2 brings data structures and algorithms from the field of finite state automata (FSA) into the world of deep learning. It provides efficient CPU and GPU implementations of commonly used FSA operations and integrates them seamlessly with PyTorch's tensor and automatic differentiation mechanisms, thus admitting - and benefiting from - the inner complexity of the speech recognition, instead of trying to remove it.
 
 ### 🎨 k2 codes
 - Fast parallel computation of longest common prefixes for eﬃcient pattern matching ([kmp-LCP](https://github.com/k2-fsa/k2/pull/804)).
@@ -92,6 +96,7 @@ ________________________________________________________________________________
     <img src="https://github.com/user-attachments/assets/756c82a2-b7f3-4a90-ae21-ca754fd90fbf" alt="Lhotse" width="200"/>
 </p>
 
+Lhotse develops a modern approach to speech data preparation. Its design is inspired by data libraries commonly used in the ML community, such as pandas. Lhotse's philosophy may be summarized as ''simple things should be simple, complex things should be possible.'' 
 
 ### 🎨 GPU-accelerated Guided Source Separation
 Improved implementation of [GSS](https://github.com/desh2608/gss) that leverages the power of modern GPU-based pipelines, such as batched processing of frequencies and segments. This allows us to perform detailed ablation studies over several parameters of the GSS algorithm. There are reproducible pipelines for speaker-attributed transcription of popular meeting benchmarks: LibriCSS, AMI, and AliMeeting.
