@@ -14,8 +14,9 @@ The Kaldi open-source toolkit for automatic speech recognition, developed in 200
 The project aims at implementing all core functions of the open-source Kaldi automatic speech recognition (ASR) toolkit natively in generic AI/deep learning frameworks, primarily PyTorch, so that new advances in deep learning (e.g., novel optimization algorithms) can be seamlessly leveraged by the speech research community. Furthermore, the project incorporates automatic differentiation through finite state transducers, a core Kaldi feature responsible for its state-of-the-art performance, permitting true end-to-end training of ASR systems. These and other enhancements will make it possible to achieve two currently incompatible goals: incorporating structured, external knowledge (e.g., dialog flow models, finite state grammars, pronunciation lexicons) into fully neural ASR systems, and end-to-end training of a hybrid ASR system via backpropagation. Other goals of this proposal include providing efficient yet user-friendly data preparation and model management tools for large-scale training of ASR systems and capabilities for robust conversation analysis and speaker diarization needed by researchers who use ASR as a tool for other scientific inquiries.
 
 #### Acknowledgments:
-<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>
-U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
+
+[<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120435&HistoricalAwards=false)
+ This project was supported by U.S. National Science Foundation Award Number:2120435, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
 
 # 🔹 Projects
 
