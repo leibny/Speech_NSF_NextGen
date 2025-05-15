@@ -9,7 +9,7 @@
 </p>
 
 
-The Kaldi open-source toolkit for automatic speech recognition, developed in 2009 and the subsequent follow-up trilogy Icefall, K2 and Lhotse in 2021 have shown the rapid evolution of the algorithms in speech technologies. To adapt to the new and rapid changes such as large language models (LLMs), Hugging Face, and robust frameworks like Pytorch, this project aims to give a fresh scope according to the new necessities of the speech research community. 
+The Kaldi open-source toolkit for automatic speech recognition, developed in 2009 and the subsequent follow-up trilogy Icefall, K2 and Lhotse in 2021 have shown the rapid evolution of the algorithms in speech technologies. To adapt to the new and rapid changes, such as large language models (LLMs), Hugging Face, and robust frameworks like Pytorch, this project aims to give a fresh scope according to the new necessities of the speech research community. 
 
 #### Acknowledgments:
 <img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>
@@ -57,6 +57,9 @@ A functional recipe for [Geolocation](https://github.com/geolocation-from-speech
 - **\#43** Henry Li Xinyuan, [1 commit](https://github.com/k2-fsa/icefall/commits?author=HSTEHSTEHSTE) 🟩 2,124 ++ 🔴 3 --
 - **\#67** Amir Hussein, [1 commit](https://github.com/k2-fsa/icefall/commits?author=AmirHussein96) 🟩 6,114 ++ 🔴 1 --
 - **\#100** Jan "yenda" Trmal, [1 commit](https://github.com/k2-fsa/icefall/commits?author=jtrmal) 🟩 1 ++ 🔴 1 --
+
+### 🎨 External Collaborators
+- **\#2** Dan Povey, [200 commits](https://github.com/k2-fsa/icefall/commits?author=danpovey) 🟩 13,323 ++ 🔴 4,485 --
 _______________________________________________________________________________________
 <p align="center">
   <a href="https://github.com/k2-fsa/k2">
@@ -74,6 +77,11 @@ ________________________________________________________________________________
 - **\#20** Desh Raj, [2 commits](https://github.com/k2-fsa/k2/commits?author=desh2608) 🟩 435 ++ 🔴 29 --
 - **\#27** Mahsa Yarmohammadi, [2 commits](https://github.com/k2-fsa/k2/commits?author=mahsa7823) 🟩 169 ++ 🔴 51 --
 - **\#35** Dongji Gao, [1 commit](https://github.com/k2-fsa/k2/commits?author=DongjiGao) 🟩 27 ++ 🔴 10 --
+
+  ### 🎨 External Collaborators
+- **\#2** Dan Povey, [214 commits](https://github.com/k2-fsa/k2/commits?author=danpovey) 🟩 73,771 ++ 🔴 30,586 --
+
+
 
 _______________________________________________________________________________________
 <p align="center">
