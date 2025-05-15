@@ -37,7 +37,7 @@ A functional recipe for [Geolocation](https://github.com/geolocation-from-speech
 
 - [AMI SURT](https://github.com/k2-fsa/icefall/tree/master/egs/ami/SURT)
 - [Kneser-Ney smoothed language model](https://github.com/k2-fsa/icefall/blob/e79833aad278f09792deceab5962b09ae4f56378/icefall/shared/make_kn_lm.py)
-- [Librispeech](https://github.com/k2-fsa/icefall/tree/e79833aad278f09792deceab5962b09ae4f56378/egs/librispeech - partial contribution
+- [Librispeech](https://github.com/k2-fsa/icefall/tree/e79833aad278f09792deceab5962b09ae4f56378/egs/librispeech) - partial contribution
 - [MGB2](https://github.com/k2-fsa/icefall/tree/master/egs/mgb2/ASR)
 - [N-gram entropy running](https://github.com/k2-fsa/icefall/blob/e79833aad278f09792deceab5962b09ae4f56378/icefall/shared/ngram_entropy_pruning.py#L4)
 - [SPGISpeech](https://github.com/k2-fsa/icefall/tree/master/egs/spgispeech/ASR)
