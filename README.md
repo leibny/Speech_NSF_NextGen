@@ -12,9 +12,8 @@
 The Kaldi open-source toolkit for automatic speech recognition, developed in 2009 and the subsequent follow-up trilogy Icefall, K2 and Lhotse in 2021 have shown the rapid evolution of the algorithms in speech technologies. To adapt to the new and rapid changes, such as large language models (LLMs), Hugging Face, and robust frameworks like Pytorch, this project aims to give a fresh scope according to the new necessities of the speech research community. 
 
 #### Acknowledgments:
-<a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120435&HistoricalAwards=false"> 
-  <img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>
-</a> U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
+[<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>](href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120435&HistoricalAwards=false)
+U.S. National Science Foundation, NSF-CCRI project: CCRI: ENS: Next Generation Tools for Spoken Language Science & Technology 
 
 # 🔹 Projects
 
