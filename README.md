@@ -15,6 +15,27 @@ In response to the transformative changes in the field—such as the rise of lar
 
 The primary objective of k2 is to re-implement all core functions of Kaldi natively in generic AI/deep learning frameworks, with a focus on PyTorch. This allows the seamless integration of cutting-edge developments in deep learning (e.g., novel optimization algorithms) into speech recognition research. The primary goals of Lhotse and Icefall include delivering efficient, user-friendly tools for data preparation, recipe development, and training modern ASR models.
 
+<div align="center">
+
+  GitHub statistics for Lhotse, Icefall, and k2. <sup>*</sup>within last month (as of May 16 2025)
+
+| GitHub statistic        | Lhotse | Icefall | k2   |
+|-------------------------|--------|---------|------|
+| Watch                   | 42     | 49      | 73   |
+| Fork                    | 233    | 337     | 224  |
+| Star                    | 1k     | 1.1k    | 1.2k |
+| Dependent repositories  | 252    | 0       | 49   |
+| Merged PR<sup>*</sup>   | 5      | 5       | 1    |
+| Open PR<sup>*</sup>     | 0      | 3       | 0    |
+| Closed issue<sup>*</sup>| 1      | 14      | 0    |
+| New issue<sup>*</sup>   | 3      | 4       | 0    |
+| Commits to master<sup>*</sup>| 7      | 5       | 1    |
+| Additions<sup>*</sup>   | 687    | 79      | 618  |
+| Deletions<sup>*</sup>   | 219    | 170     | 138  |
+
+</div>
+
+
 #### Acknowledgments:
 
 [<img src="https://github.com/user-attachments/assets/d5796c3a-bf9c-4876-b1fe-d49689f8b133" alt="NSF Official Logo" width="50"/>](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2120435&HistoricalAwards=false)
