@@ -1,5 +1,5 @@
 ---
-title: Icefall Ecosystem
+title: Icefall/K2/Lhotse Ecosystem
 layout: default
 ---
 
@@ -172,7 +172,7 @@ K2 brings data structures and algorithms from the field of finite state automata
 _______________________________________________________________________________________
 # 🔹 Other projects
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/08509f16-39f3-47ef-9093-183fa23a9499", alt="Other" width="200"/>
+  <img src="https://github.com/user-attachments/assets/08509f16-39f3-47ef-9093-183fa23a9499" alt="Other" width="200"/>
 </p>
 
 ### 🎨 <img src="https://github.com/user-attachments/assets/5865aeaa-80c8-470f-bd96-38407f6405fb" width="80"/>
