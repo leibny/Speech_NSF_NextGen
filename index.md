@@ -32,29 +32,31 @@ The primary objective of k2 is to re-implement all core functions of Kaldi nativ
 
 <br/>
 
-<table style="margin-left: auto; margin-right: auto; text-align: center;">
-  <thead>
-    <tr>
-      <th>GitHub Statistic</th>
-      <th>Lhotse</th>
-      <th>Icefall</th>
-      <th>k2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Watch</td><td>42</td><td>49</td><td>73</td></tr>
-    <tr><td>Fork</td><td>233</td><td>337</td><td>224</td></tr>
-    <tr><td>Star</td><td>1k</td><td>1.1k</td><td>1.2k</td></tr>
-    <tr><td>Dependent repositories</td><td>252</td><td>0</td><td>49</td></tr>
-    <tr><td>Merged PR<sup>*</sup></td><td>5</td><td>5</td><td>1</td></tr>
-    <tr><td>Open PR<sup>*</sup></td><td>0</td><td>3</td><td>0</td></tr>
-    <tr><td>Closed issues<sup>*</sup></td><td>1</td><td>14</td><td>0</td></tr>
-    <tr><td>New issues<sup>*</sup></td><td>3</td><td>4</td><td>0</td></tr>
-    <tr><td>Commits to master<sup>*</sup></td><td>7</td><td>5</td><td>1</td></tr>
-    <tr><td>Additions<sup>*</sup></td><td>687</td><td>79</td><td>618</td></tr>
-    <tr><td>Deletions<sup>*</sup></td><td>219</td><td>170</td><td>138</td></tr>
-  </tbody>
-</table>
+<div style="display: flex; justify-content: center;">
+  <table style="border-collapse: collapse;">
+    <thead>
+      <tr>
+        <th style="padding: 8px; border-bottom: 1px solid #ccc;">GitHub Statistic</th>
+        <th style="padding: 8px; border-bottom: 1px solid #ccc;">Lhotse</th>
+        <th style="padding: 8px; border-bottom: 1px solid #ccc;">Icefall</th>
+        <th style="padding: 8px; border-bottom: 1px solid #ccc;">k2</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td style="padding: 8px;">Watch</td><td>42</td><td>49</td><td>73</td></tr>
+      <tr><td style="padding: 8px;">Fork</td><td>233</td><td>337</td><td>224</td></tr>
+      <tr><td style="padding: 8px;">Star</td><td>1k</td><td>1.1k</td><td>1.2k</td></tr>
+      <tr><td style="padding: 8px;">Dependent repositories</td><td>252</td><td>0</td><td>49</td></tr>
+      <tr><td style="padding: 8px;">Merged PR<sup>*</sup></td><td>5</td><td>5</td><td>1</td></tr>
+      <tr><td style="padding: 8px;">Open PR<sup>*</sup></td><td>0</td><td>3</td><td>0</td></tr>
+      <tr><td style="padding: 8px;">Closed issues<sup>*</sup></td><td>1</td><td>14</td><td>0</td></tr>
+      <tr><td style="padding: 8px;">New issues<sup>*</sup></td><td>3</td><td>4</td><td>0</td></tr>
+      <tr><td style="padding: 8px;">Commits to master<sup>*</sup></td><td>7</td><td>5</td><td>1</td></tr>
+      <tr><td style="padding: 8px;">Additions<sup>*</sup></td><td>687</td><td>79</td><td>618</td></tr>
+      <tr><td style="padding: 8px;">Deletions<sup>*</sup></td><td>219</td><td>170</td><td>138</td></tr>
+    </tbody>
+  </table>
+</div>
 
 
 
