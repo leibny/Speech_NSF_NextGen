@@ -134,10 +134,4 @@ K2 brings data structures and algorithms from the field of finite state automata
 
 ### 🎨 k2 codes
 - Fast parallel computation of longest common prefixes for eﬃcient pattern matching ([kmp-LCP](https://github.com/k2-fsa/k2/pull/804)).
-
-
-
-
-
-
-
+- Implementation of the Hybrid Autoregressive Transducer loss ([HAT](https://github.com/k2-fsa/k2/pull/1244)).
