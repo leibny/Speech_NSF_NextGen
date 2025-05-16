@@ -120,14 +120,14 @@ We developed an [Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/e
 ###  🎨 MGB-2 (by [Amir Hussein](https://github.com/AmirHussein96))
 We developed an [Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/mgb2/ASR) and trained a model ([conformer-ctc](https://huggingface.co/AmirHussein/icefall-asr-mgb2-conformer_ctc-2022-27-06) model on Hugging Face) for [Multi-Dialect Broadcast News Arabic Speech Recognition (MGB-2)](https://ieeexplore.ieee.org/abstract/document/7846277) challenge on Arabic multi-dialect broadcast media recognition.
 
-###  🎨 Contextual ASR (by Ruizhe Huang, co-advised by Mahsa Yarmohammadi)
+###  🎨 Contextual ASR (by Ruizhe Huang, Mahsa Yarmohammadi)
 Developed recipes for Contextual ASR. This is the process by which an ASR system is provided with contextual information derived from metadata associated with the audio, typically in the form of a list of words or phrases likely to be spoken, with the goal of improving the recognition accuracy of named entities and other infrequent terms. Our work on Contextual ASR is recognized for introducing the ConEC dataset ([ConEC](https://github.com/huangruizhe/ConEC)), followed by a method for improving neural biasing beyond shallow language model fusion ([Pull request - Neural Biasing](https://github.com/k2-fsa/icefall/pull/1763)).
 
 
-### 🎨 Omni-temporal Classification (OTC) (by Dongji Gao)
+### 🎨 Omni-temporal Classification (OTC) (by Dongji Gao, Paola Garcia, [Matthew Wiesner](https://m-wiesner.github.io/))
 Training ASR systems requires large amounts of well-curated paired data. However, human annotators usually perform "non-verbatim" transcription, which can result in poorly trained models. We designed and implemented Omni-temporal Classification ([OTC](https://ieeexplore.ieee.org/abstract/document/10389684)), a novel training criterion that explicitly incorporates label uncertainties originating from such weak supervision. This allows the model to effectively learn speech-text alignments while accommodating errors present in the training transcripts ([OTC w/ BPE units](https://github.com/k2-fsa/icefall/blob/master/icefall/otc_graph_compiler.py), [OTC w/ phone units](https://github.com/k2-fsa/icefall/blob/master/icefall/otc_phone_graph_compiler.py)).
 
-###  🎨 ASR + LID (by [Amir Hussein](https://github.com/AmirHussein96), co-advised by [Matthew Wiesner](https://m-wiesner.github.io/))
+###  🎨 ASR + LID (by [Amir Hussein](https://github.com/AmirHussein96), Paola Garcia, [Matthew Wiesner](https://m-wiesner.github.io/))
 Created a multitask learning framework that synchronizes Language Identification (LID) with ASR, utilizing a neural transducer architecture. We demonstrate the efficacy of our proposed approach on conversational multilingual (Arabic, Spanish, Mandarin) and CS (Spanish-English, Mandarin-English) test sets ([Pull request - ASR SEAME Recipe](https://github.com/k2-fsa/icefall/pull/1582)).
 
 ### 🎨 Other recipes
@@ -172,7 +172,7 @@ The [CHiME 8](https://www.chimechallenge.org/challenges/chime8/task1/index#track
 - [Usage](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#usage) prepares CHiME-8 data lhotse manifests.
 - [Manifest preparation for different toolkits](https://github.com/chimechallenge/chime-utils/blob/main/DATAPREP.md) (Datasets included: Dipco, mixer6, notsofar1, CHiME6).
 
-### 🎨 Target Speaker ASR with Whisper
+### 🎨 Target Speaker ASR with Whisper Dominik Klement, [Matthew Wiesner](https://m-wiesner.github.io/)
 The [repository](https://github.com/BUTSpeechFIT/TS-ASR-Whisper/tree/main) contains the official implementation of the following publications: [Target Speaker Whisper](https://arxiv.org/pdf/2409.09543) and [DiCoW](https://arxiv.org/pdf/2501.00114): Diarization-Conditioned Whisper for Target Speaker Automatic Speech Recognition. It relied on Lhotse for homogenizing the data preparation across various datasets, such as AMI, Librispeech.  
 - [Data preparation](https://github.com/BUTSpeechFIT/TS-ASR-Whisper/tree/main/scripts/data) (AMI, Librispeech, etc)
 
