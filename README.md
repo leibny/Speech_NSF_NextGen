@@ -142,11 +142,16 @@ ________________________________________________________________________________
   <img src="https://github.com/user-attachments/assets/08509f16-39f3-47ef-9093-183fa23a9499", alt="Other" width="200"/>
 </p>
 
-### 🎨 CHiME 8
+### 🎨 <img src="https://github.com/user-attachments/assets/5865aeaa-80c8-470f-bd96-38407f6405fb" width="80"/>
+
 The [CHiME 8](https://www.chimechallenge.org/challenges/chime8/task1/index#tracks) submission relied on Lhotse for data preparation, audio loading, data manipulation, and constructing the PyTorch dataloaders. Once in this format, it was possible to interface with standard Whisper training recipes in the [Whisper GitHub](https://github.com/openai/whisper) repo or on Hugging Face. 
-- [Data preparation](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#data-preparation)
-- [Usage](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#usage)
-- [Manifest preparation for different toolkits](https://github.com/chimechallenge/chime-utils/blob/main/DATAPREP.md)
+- [Data preparation](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#data-preparation) for k2/Icefall and ESPNet.
+- [Usage](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#usage) prepares CHiME-8 data lhotse manifests.
+- [Manifest preparation for different toolkits](https://github.com/chimechallenge/chime-utils/blob/main/DATAPREP.md) (Datasets included: Dipco, mixer6, notsofar1, CHiME6).
+
+### 🎨 Target Speaker ASR with Whisper
+The [repository](https://github.com/BUTSpeechFIT/TS-ASR-Whisper/tree/main) contains the official implementation of the following publications: [Target Speaker Whisper](https://arxiv.org/pdf/2409.09543) and [DiCoW](https://arxiv.org/pdf/2501.00114): Diarization-Conditioned Whisper for Target Speaker Automatic Speech Recognition. It relied on Lhotse for homogenizing the data preparation across various datasets, such as AMI, Librispeech.  
+- [Data preparation](https://github.com/BUTSpeechFIT/TS-ASR-Whisper/tree/main/scripts/data) (AMI, Librispeech, etc)
 
 
 ### 🎨 Hugging Face <img src="https://github.com/user-attachments/assets/9cca2970-4ff2-4847-b376-efda1bc17cec" width="25"/>
