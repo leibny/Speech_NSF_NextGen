@@ -25,38 +25,33 @@ In response to the transformative changes in the field—such as the rise of lar
 
 The primary objective of k2 is to re-implement all core functions of Kaldi natively in generic AI/deep learning frameworks, with a focus on PyTorch. This allows the seamless integration of cutting-edge developments in deep learning (e.g., novel optimization algorithms) into speech recognition research. The primary goals of Lhotse and Icefall include delivering efficient, user-friendly tools for data preparation, recipe development, and training modern ASR models.
 
-<div align="left">
+**GitHub statistics for Lhotse, Icefall, and k2**  
+<sup>*Within the last month (as of May 16, 2025)</sup>
 
-  <strong>GitHub statistics for Lhotse, Icefall, and k2</strong><br/>
-  <sup>*Within the last month (as of May 16, 2025)</sup>
+<table>
+  <thead>
+    <tr>
+      <th>GitHub Statistic</th>
+      <th>Lhotse</th>
+      <th>Icefall</th>
+      <th>k2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Watch</td><td>42</td><td>49</td><td>73</td></tr>
+    <tr><td>Fork</td><td>233</td><td>337</td><td>224</td></tr>
+    <tr><td>Star</td><td>1k</td><td>1.1k</td><td>1.2k</td></tr>
+    <tr><td>Dependent repositories</td><td>252</td><td>0</td><td>49</td></tr>
+    <tr><td>Merged PR<sup>*</sup></td><td>5</td><td>5</td><td>1</td></tr>
+    <tr><td>Open PR<sup>*</sup></td><td>0</td><td>3</td><td>0</td></tr>
+    <tr><td>Closed issues<sup>*</sup></td><td>1</td><td>14</td><td>0</td></tr>
+    <tr><td>New issues<sup>*</sup></td><td>3</td><td>4</td><td>0</td></tr>
+    <tr><td>Commits to master<sup>*</sup></td><td>7</td><td>5</td><td>1</td></tr>
+    <tr><td>Additions<sup>*</sup></td><td>687</td><td>79</td><td>618</td></tr>
+    <tr><td>Deletions<sup>*</sup></td><td>219</td><td>170</td><td>138</td></tr>
+  </tbody>
+</table>
 
-  <br/><br/>
-
-  <table>
-    <thead>
-      <tr>
-        <th>GitHub Statistic</th>
-        <th>Lhotse</th>
-        <th>Icefall</th>
-        <th>k2</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td>Watch</td><td>42</td><td>49</td><td>73</td></tr>
-      <tr><td>Fork</td><td>233</td><td>337</td><td>224</td></tr>
-      <tr><td>Star</td><td>1k</td><td>1.1k</td><td>1.2k</td></tr>
-      <tr><td>Dependent repositories</td><td>252</td><td>0</td><td>49</td></tr>
-      <tr><td>Merged PR<sup>*</sup></td><td>5</td><td>5</td><td>1</td></tr>
-      <tr><td>Open PR<sup>*</sup></td><td>0</td><td>3</td><td>0</td></tr>
-      <tr><td>Closed issues<sup>*</sup></td><td>1</td><td>14</td><td>0</td></tr>
-      <tr><td>New issues<sup>*</sup></td><td>3</td><td>4</td><td>0</td></tr>
-      <tr><td>Commits to master<sup>*</sup></td><td>7</td><td>5</td><td>1</td></tr>
-      <tr><td>Additions<sup>*</sup></td><td>687</td><td>79</td><td>618</td></tr>
-      <tr><td>Deletions<sup>*</sup></td><td>219</td><td>170</td><td>138</td></tr>
-    </tbody>
-  </table>
-
-</div>
 
 
 #### Acknowledgments:
