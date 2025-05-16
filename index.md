@@ -1,6 +1,6 @@
 ---
 title: Icefall/K2/Lhotse Ecosystem
-layout: minimal
+layout: home
 ---
 
 # 🔹 Introduction
