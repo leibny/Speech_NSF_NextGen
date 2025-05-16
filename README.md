@@ -160,7 +160,7 @@ K2 brings data structures and algorithms from the field of finite state automata
 - Implementation of the Hybrid Autoregressive Transducer loss ([HAT](https://github.com/k2-fsa/k2/pull/1244)).
 
 _______________________________________________________________________________________
-# Other projects
+# 🔹 Other projects
 <p align="center">
   <img src="https://github.com/user-attachments/assets/08509f16-39f3-47ef-9093-183fa23a9499", alt="Other" width="200"/>
 </p>
