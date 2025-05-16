@@ -51,7 +51,7 @@ Improved implementation of [GSS](https://github.com/desh2608/gss) that leverages
 - [recipes/but_reverb_db.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/but_reverb_db.py)  reverberation database
 - [recipes/chime6.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/chime6.py) speech/asr
 - [recipes/csj.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/csj.py) speech/asr
-- [recipes/cmu_kids.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/cmu_kids.py)
+- [recipes/cmu_kids.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/cmu_kids.py) speech/asr
 - [recipes/dipco.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/dipco.py) speech/asr
 - [recipes/edacc.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/edacc.py) speech/asr
 - [recipes/gigast.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/gigaspeech.py) speech-translation
@@ -63,9 +63,9 @@ Improved implementation of [GSS](https://github.com/desh2608/gss) that leverages
 - [recipes/xbmu_amdo31.py](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/xbmu_amdo31.py) speech/asr
 
 
-- [Fleurs](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/fleurs.py)
-- [radio stations](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/radio.py)
-- [SBCASE](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/sbcsae.py)
+- [Fleurs](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/fleurs.py) speech/language-id
+- [radio stations](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/radio.py) speech/asr speech/language-id database 
+- [SBCASE](https://github.com/lhotse-speech/lhotse/blob/master/lhotse/recipes/sbcsae.py) speech/diarization database
 
 
 _______________________________________________________________________________________
@@ -135,3 +135,19 @@ K2 brings data structures and algorithms from the field of finite state automata
 ### 🎨 k2 codes
 - Fast parallel computation of longest common prefixes for eﬃcient pattern matching ([kmp-LCP](https://github.com/k2-fsa/k2/pull/804)).
 - Implementation of the Hybrid Autoregressive Transducer loss ([HAT](https://github.com/k2-fsa/k2/pull/1244)).
+
+_______________________________________________________________________________________
+# Other projects
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/08509f16-39f3-47ef-9093-183fa23a9499", alt="Other" width="200"/>
+</p>
+
+### 🎨 CHiME 8
+The [CHiME 8](https://www.chimechallenge.org/challenges/chime8/task1/index#tracks) submission relied on Lhotse for data preparation, audio loading, data manipulation, and constructing the PyTorch dataloaders. Once in this format, it was possible to interface with standard Whisper training recipes in the [Whisper GitHub](https://github.com/openai/whisper) repo or on Hugging Face. 
+- [Data preparation](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#data-preparation)
+- [Usage](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#usage)
+- [Manifest preparation for different toolkits](https://github.com/chimechallenge/chime-utils/blob/main/DATAPREP.md)
+
+
+### 🎨 Hugging Face
+[K2 Hugging Face](https://huggingface.co/k2-fsa) implementation is also available, featuring differentiable FSA/FST algorithms with PyTorch compatibility for automatic speech recognition tasks 
