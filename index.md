@@ -25,7 +25,7 @@ In response to the transformative changes in the field—such as the rise of lar
 
 The primary objective of k2 is to re-implement all core functions of Kaldi natively in generic AI/deep learning frameworks, with a focus on PyTorch. This allows the seamless integration of cutting-edge developments in deep learning (e.g., novel optimization algorithms) into speech recognition research. The primary goals of Lhotse and Icefall include delivering efficient, user-friendly tools for data preparation, recipe development, and training modern ASR models.
 
-<div align="center">
+<div align="left">
 
   <strong>GitHub statistics for Lhotse, Icefall, and k2</strong><br/>
   <sup>*Within the last month (as of May 16, 2025)</sup>
