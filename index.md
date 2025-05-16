@@ -64,6 +64,7 @@ The primary objective of k2 is to re-implement all core functions of Kaldi nativ
 <p align="center">
   <a href="https://github.com/lhotse-speech/lhotse">  
     <img src="https://github.com/user-attachments/assets/756c82a2-b7f3-4a90-ae21-ca754fd90fbf" alt="Lhotse" width="200"/>
+  </a>
 </p>
 
 Lhotse develops a modern approach to speech data preparation. Its design is inspired by data libraries commonly used in the ML community, such as pandas. Lhotse's philosophy may be summarized as ''simple things should be simple, complex things should be possible.'' 
