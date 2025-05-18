@@ -88,7 +88,7 @@ Lhotse develops a modern approach to speech data preparation. Its design is insp
 ### 🎨 GPU-accelerated Guided Source Separation  
 *by [Desh Raj](https://desh2608.github.io/)*
 
-An improved implementation of [GSS](https://github.com/desh2608/gss) that leverages GPU-based pipelines — including batched frequency and segment processing — to perform detailed ablation studies on multiple parameters. Includes reproducible pipelines for speaker-attributed transcription on **LibriCSS**, **AMI**, and **AliMeeting** benchmarks.
+Improved implementation of [GSS](https://github.com/desh2608/gss) that leverages the power of modern GPU-based pipelines, such as batched processing of frequencies and segments. This allows us to perform detailed ablation studies over several parameters of the GSS algorithm. There are reproducible pipelines for speaker-attributed transcription of popular meeting benchmarks: LibriCSS, AMI, and AliMeeting.
 
 
 
@@ -141,21 +141,20 @@ Icefall is the project where K2 and Lhotse ''meet''. It provides the speech and 
 [We investigated](https://arxiv.org/abs/2109.08555) Streaming Unmixing and Recognition Transducer (SURT) for continuous streaming multitalker ASR, and demonstrated the effectiveness of dual-path LSTMs and Transformers for generalization to diverse session lengths (recipes for the [LibriCSS](https://github.com/k2-fsa/icefall/tree/master/egs/libricss/SURT), [AMI and ICSI](https://github.com/k2-fsa/icefall/tree/master/egs/ami/SURT) datasets).
 
 ### 🎨 SPGISpeech (by [Desh Raj](https://desh2608.github.io/))
-We developed an [Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/spgispeech/ASR) and trained models ([zipformer](https://huggingface.co/desh2608/icefall-asr-spgispeech-zipformer) and [stateless transducer](https://huggingface.co/desh2608/icefall-asr-spgispeech-pruned-transducer-stateless2)) for [SPGISpeech](https://arxiv.org/abs/2104.02014).
+We developed an [Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/spgispeech/ASR) and trained models ([zipformer](https://huggingface.co/desh2608/icefall-asr-spgispeech-zipformer) and [stateless transducer](https://huggingface.co/desh2608/icefall-asr-spgispeech-pruned-transducer-stateless2) models on Hugging Face) for [SPGISpeech](https://arxiv.org/abs/2104.02014), a dataset consisting of 5,000 hours of recorded company earnings calls and their respective transcriptions.
 
 ### 🎨 MGB-2 (by [Amir Hussein](https://github.com/AmirHussein96))
-We developed an [Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/mgb2/ASR) and trained a model ([conformer-ctc](https://huggingface.co/AmirHussein/icefall-asr-mgb2-conformer_ctc-2022-27-06)) for [MGB-2](https://ieeexplore.ieee.org/abstract/document/7846277).
+We developed an [Icefall recipe](https://github.com/k2-fsa/icefall/tree/master/egs/mgb2/ASR) and trained a model ([conformer-ctc](https://huggingface.co/AmirHussein/icefall-asr-mgb2-conformer_ctc-2022-27-06) model on Hugging Face) for [Multi-Dialect Broadcast News Arabic Speech Recognition (MGB-2)](https://ieeexplore.ieee.org/abstract/document/7846277) challenge on Arabic multi-dialect broadcast media recognition.
 
 ### 🎨 Contextual ASR (by Ruizhe Huang, Mahsa Yarmohammadi)
-Developed recipes for Contextual ASR using the [ConEC dataset](https://github.com/huangruizhe/ConEC), and improved neural biasing ([PR](https://github.com/k2-fsa/icefall/pull/1763)).
+Developed recipes for Contextual ASR. This is the process by which an ASR system is provided with contextual information derived from metadata associated with the audio, typically in the form of a list of words or phrases likely to be spoken, with the goal of improving the recognition accuracy of named entities and other infrequent terms. Our work on Contextual ASR is recognized for introducing the ConEC dataset ([ConEC](https://github.com/huangruizhe/ConEC)), followed by a method for improving neural biasing beyond shallow language model fusion ([Pull request - Neural Biasing](https://github.com/k2-fsa/icefall/pull/1763)).
+
 
 ### 🎨 Omni-temporal Classification (OTC) (by Dongji Gao, Paola Garcia, [Matthew Wiesner](https://m-wiesner.github.io/))
-Proposed [OTC](https://ieeexplore.ieee.org/abstract/document/10389684) for learning from weak supervision:
-- [BPE version](https://github.com/k2-fsa/icefall/blob/master/icefall/otc_graph_compiler.py)
-- [Phone version](https://github.com/k2-fsa/icefall/blob/master/icefall/otc_phone_graph_compiler.py)
+Training ASR systems requires large amounts of well-curated paired data. However, human annotators usually perform "non-verbatim" transcription, which can result in poorly trained models. We designed and implemented Omni-temporal Classification ([OTC](https://ieeexplore.ieee.org/abstract/document/10389684)), a novel training criterion that explicitly incorporates label uncertainties originating from such weak supervision. This allows the model to effectively learn speech-text alignments while accommodating errors present in the training transcripts ([OTC w/ BPE units](https://github.com/k2-fsa/icefall/blob/master/icefall/otc_graph_compiler.py), [OTC w/ phone units](https://github.com/k2-fsa/icefall/blob/master/icefall/otc_phone_graph_compiler.py)).
 
 ### 🎨 ASR + LID (by [Amir Hussein](https://github.com/AmirHussein96), Paola Garcia, [Matthew Wiesner](https://m-wiesner.github.io/))
-Multitask ASR + Language ID model tested on multilingual and code-switched sets ([PR](https://github.com/k2-fsa/icefall/pull/1582)).
+Created a multitask learning framework that synchronizes Language Identification (LID) with ASR, utilizing a neural transducer architecture. We demonstrate the efficacy of our proposed approach on conversational multilingual (Arabic, Spanish, Mandarin) and CS (Spanish-English, Mandarin-English) test sets ([Pull request - ASR SEAME Recipe](https://github.com/k2-fsa/icefall/pull/1582)).
 
 ### 🎨 Other recipes
 - [Kneser-Ney LM](https://github.com/k2-fsa/icefall/blob/e79833aad278f09792deceab5962b09ae4f56378/icefall/shared/make_kn_lm.py)
@@ -185,9 +184,8 @@ K2 brings FSA data structures into deep learning with GPU/CPU efficiency, PyTorc
 - **#2** Dan Povey, [214 commits](https://github.com/k2-fsa/k2/commits?author=danpovey) 🟩 73,771 ++ 🔴 30,586 --
 
 ### 🎨 k2 codes
-- [Longest Common Prefix](https://github.com/k2-fsa/k2/pull/804)
-- [Hybrid Autoregressive Transducer (HAT)](https://github.com/k2-fsa/k2/pull/1244)
-
+- Fast parallel computation of longest common prefixes for eﬃcient pattern matching ([kmp-LCP](https://github.com/k2-fsa/k2/pull/804)).
+- Implementation of the Hybrid Autoregressive Transducer loss ([HAT](https://github.com/k2-fsa/k2/pull/1244)).
 ---
 
 # 🔹 Other projects
@@ -198,21 +196,18 @@ K2 brings FSA data structures into deep learning with GPU/CPU efficiency, PyTorc
 
 ### 🎨 <img src="https://github.com/user-attachments/assets/5865aeaa-80c8-470f-bd96-38407f6405fb" width="80"/>
 
-The [CHiME 8](https://www.chimechallenge.org/challenges/chime8/task1/index#tracks) submission relied on Lhotse and Whisper:
+
+The [CHiME 8](https://www.chimechallenge.org/challenges/chime8/task1/index#tracks) submission relied on Lhotse for data preparation, audio loading, data manipulation, and constructing the PyTorch dataloaders. Once in this format, it was possible to interface with standard Whisper training recipes in the [Whisper GitHub](https://github.com/openai/whisper) repo or on Hugging Face. 
 - [Data prep](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#data-preparation)
 - [Usage](https://github.com/chimechallenge/chime-utils?tab=readme-ov-file#usage)
 - [Manifest prep](https://github.com/chimechallenge/chime-utils/blob/main/DATAPREP.md) (Dipco, mixer6, notsofar1, CHiME6)
 
-### 🎨 Target Speaker ASR with Whisper (by Dominik Klement, [Matthew Wiesner](https://m-wiesner.github.io/))
+### 🎨 Target Speaker ASR with Whisper (by [BUT](https://speech.fit.vut.cz/) in collaboration with Dominik Klement, [Matthew Wiesner](https://m-wiesner.github.io/))
+The [repository](https://github.com/BUTSpeechFIT/TS-ASR-Whisper/tree/main) contains the official implementation of the following publications: [Target Speaker Whisper](https://arxiv.org/pdf/2409.09543) and [DiCoW](https://arxiv.org/pdf/2501.00114): Diarization-Conditioned Whisper for Target Speaker Automatic Speech Recognition. It relied on Lhotse for homogenizing the data preparation across various datasets, such as AMI, Librispeech.  This project is a collaboration between  Alex Polok and Lukás Burget from [BUT](https://speech.fit.vut.cz/) and Dominik Klement, [Matthew Wiesner](https://m-wiesner.github.io/)
 - [Repo](https://github.com/BUTSpeechFIT/TS-ASR-Whisper/tree/main)
 - [Target Speaker Whisper](https://arxiv.org/pdf/2409.09543)
 - [DiCoW](https://arxiv.org/pdf/2501.00114)
 - [Data prep](https://github.com/BUTSpeechFIT/TS-ASR-Whisper/tree/main/scripts/data)
 
 ### 🎨 Hugging Face <img src="https://github.com/user-attachments/assets/9cca2970-4ff2-4847-b376-efda1bc17cec" width="25"/>
-[k2-fsa](https://huggingface.co/k2-fsa) on Hugging Face:
-- 1 dataset (LibriSpeech)
-- 18 models
-- 30 HF Spaces (ASR, TTS, tagging, LID)
-
----
+Researchers and developers increasingly rely on the open-source platform Hugging Face for pre-trained models, datasets, and tools to efficiently build and deploy AI applications. [k2-fsa](https://huggingface.co/k2-fsa) is available on Hugging Face. As of now, it has published one dataset (LibriSpeech) and 18 models. Additionally, 30 HF Spaces have been released, offering inference APIs and demos for tasks such as speech recognition, text-to-speech, audio tagging, and spoken language identification using Next-gen Kaldi.
